@@ -20,16 +20,26 @@ LED Warning System: Provides visual alerts for critical conditions (vibration tr
 Serial Monitor Output: Enables debugging and data recording for performance analysis.
 
 Use Cases
+
 🏠 Residential: Basement, garage, or yard flood detection.
+
 🏙️ Urban: Storm drain, sewage overflow, or street flooding alerts.
+
 🌾 Agricultural: Irrigation channel monitoring and automated water flow control.
 
 Setup & Configuration
+
 Hardware Setup: Connect sensors to designated Arduino pins (Ultrasonic: D9/D10, DHT22: D2, Servo: D9 PWM).
+
 Software Upload: Flash the provided .ino files (requires LiquidCrystal_I2C, DHT, and Servo libraries).
+
 Calibration: Adjust analog water sensor thresholds in code for optimal accuracy in your environment.
 
+
 Future Enhancements
+
 📶 IoT Integration: Add Wi-Fi/GSM modules (ESP8266, SIM800L) for remote SMS/email alerts.
+
 💾 Data Logging: Implement an SD card module to store historical flood events.
+
 ☀️ Solar Power: Enable off-grid deployment with battery/solar charging.
